@@ -1,0 +1,24 @@
+This product is a USB train throttle controller intended for train video-games and simulations.  The drawing includes various parts which don't need to be fabricated, including:
+ * Screws, washers, bearings, stand-offs, PCB, rubber mounting feet, magnets
+
+The following sub-parts in this assembly should be CNC milled from 6061 aluminum:
+ASF04-10-01
+ASF04-10-09
+ASF04-10-02
+ASF04-10-08
+ASF04-10-12
+ASF04-10-07
+ASF04-10-11
+ASF04-10-13
+ASF04-10-03
+
+The following sub-parts can be ignored/not fabricated:
+ASF04-10-05 (black plastic rubber grip)
+
+The main aluminum enclosure part ASF04-10-02 will be painted, but this doesn't need to be included in the quote. I am just adding this for information.
+
+This product is a prototype; if I decide to produce it, I expect it to be a relatively low-volume sales item for players of train simulation games.
+
+Deburred
+No finish/as machined
+No paint
