@@ -55,7 +55,18 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|134720000|81125000|4c5b13c1-9b2e-4abb-90c9-bc2deb796da6|d509d69c-3c49-46d3-a946-7c048cfb6067",
+        "clearance|136500000|77335000|21f7926a-80ee-4485-8504-73562189c818|68cbdd71-e3e4-4527-aaab-43b63d87907b",
+        "hole_clearance|146960000|104695000|fbc7a627-eead-4d10-85c9-1c3492c1f82e|ab9c0843-1faf-4f40-b3d3-ef5099f946bd",
+        "hole_clearance|146960000|104695000|fbc7a627-eead-4d10-85c9-1c3492c1f82e|e0476ef0-416e-4c67-8b72-60f813e6d157",
+        "hole_clearance|147160000|104695000|fbc7a627-eead-4d10-85c9-1c3492c1f82e|2b83f56a-e3d2-41ab-b090-7b37a0ab1a1c",
+        "hole_clearance|147160000|104695000|fbc7a627-eead-4d10-85c9-1c3492c1f82e|7967f91e-fc03-4f85-9147-80e3780e3db4",
+        "hole_clearance|152560000|104695000|cc803f27-b8aa-40e6-a5af-b59bcdfaf20b|2d55733f-73a5-4307-9254-323e697669cf",
+        "hole_clearance|152560000|104695000|cc803f27-b8aa-40e6-a5af-b59bcdfaf20b|c1119408-a1d8-4fd2-b3cb-d47b9943a0b5",
+        "hole_clearance|152760000|104695000|cc803f27-b8aa-40e6-a5af-b59bcdfaf20b|085d3dc8-f81d-485b-b4a1-ecd3e842602c",
+        "hole_clearance|152760000|104695000|cc803f27-b8aa-40e6-a5af-b59bcdfaf20b|9a9c07b2-bea9-4ee4-b39e-317b8a28af74"
+      ],
       "meta": {
         "version": 2
       },
@@ -172,12 +183,28 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.15,
+        0.2,
+        0.3,
+        0.5
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.35
         }
       ],
       "zones_allow_external_fillets": false
