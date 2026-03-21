@@ -1,0 +1,4 @@
+"Reference","Value","Footprint","MPN","Qty"
+"C1","100nF","Capacitor_SMD:C_0402_1005Metric","CL05B104KO5NNNC","1"
+"IC1","TMAG5273B1QDBVR","Package_TO_SOT_SMD:SOT-23-6","TMAG5273B1QDBVR","1"
+"J1","Conn_01x04_Pin","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","SM04B-SRSS-TB","1"

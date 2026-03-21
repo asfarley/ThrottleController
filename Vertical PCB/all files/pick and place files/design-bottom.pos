@@ -1,0 +1,7 @@
+### Footprint positions - created on Thu Dec  7 15:10:54 2023 ###
+### Printed by KiCad version 7.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                                                PosX       PosY       Rot  Side
+J1        Conn_01x04_Pin  JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal   108.6000   -88.6000  -90.0000  bottom
+## End

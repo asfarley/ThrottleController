@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Productions\ThrottleController\Vertical PCB\all files\kicad projects files\design.kicad_sch</source>
+    <date>2023-12-11 12:38:41 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Designed By: shp athula kumara</company>
+        <rev>v1.0</rev>
+        <date/>
+        <source>design.kicad_sch</source>
+        <comment number="1" value="www.fiverr.com/jakky91"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">CL05B104KO5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="design.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>582d5165-2f54-4b7a-8ede-d55c2fb61358</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TMAG5273B1QDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.arrow.com/en/products/tmag5273a1qdbvr/texas-instruments?region=nac</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="MPN">TMAG5273B1QDBVR</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Mouser Part Number">595-TMAG5273A1QDBVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMAG5273A1QDBVR?qs=A6eO%252BMLsxmQjtSfEKMYFDQ%3D%3D</field>
+      </fields>
+      <libsource lib="Samacsys2" part="TMAG5273A1QDBVR" description="Board Mount Hall Effect / Magnetic Sensors Low-power linear 3D Hall-effect sensor with I C interface"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-TMAG5273A1QDBVR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMAG5273A1QDBVR?qs=A6eO%252BMLsxmQjtSfEKMYFDQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="MPN" value="TMAG5273B1QDBVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="design.kicad_sch"/>
+      <property name="ki_description" value="Board Mount Hall Effect / Magnetic Sensors Low-power linear 3D Hall-effect sensor with I C interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>133bbad0-0b53-4421-855b-c5295cfe657e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">SM04B-SRSS-TB</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="MPN" value="SM04B-SRSS-TB"/>
+      <property name="Designer" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="design.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8622f6f1-bd99-473d-89ce-25034e3a2d15</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Samacsys2" part="TMAG5273A1QDBVR">
+      <description>Board Mount Hall Effect / Magnetic Sensors Low-power linear 3D Hall-effect sensor with I C interface</description>
+      <docs>https://www.arrow.com/en/products/tmag5273a1qdbvr/texas-instruments?region=nac</docs>
+      <fields>
+        <field name="Reference">IC1</field>
+        <field name="Value">TMAG5273A1QDBVR</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/tmag5273a1qdbvr/texas-instruments?region=nac</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">595-TMAG5273A1QDBVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMAG5273A1QDBVR?qs=A6eO%252BMLsxmQjtSfEKMYFDQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMAG5273A1QDBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND_(TEST)" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+        <pin num="5" name="~{INT}" type="passive"/>
+        <pin num="6" name="SDA" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="VCC" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/SCL">
+      <node ref="IC1" pin="1" pinfunction="SCL" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/SDA">
+      <node ref="IC1" pin="6" pinfunction="SDA" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="GND_(TEST)" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="~{INT}" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+  </nets>
+</export>
